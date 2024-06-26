@@ -1,0 +1,14 @@
+/Users/riccardofoti/Repos/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter
+/Users/riccardofoti/Repos/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter.deps.json
+/Users/riccardofoti/Repos/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter.runtimeconfig.json
+/Users/riccardofoti/Repos/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter.dll
+/Users/riccardofoti/Repos/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/bin/Debug/net8.0/Starter.pdb
+/Users/riccardofoti/Repos/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/riccardofoti/Repos/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.AssemblyInfoInputs.cache
+/Users/riccardofoti/Repos/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.AssemblyInfo.cs
+/Users/riccardofoti/Repos/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.csproj.CoreCompileInputs.cache
+/Users/riccardofoti/Repos/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.dll
+/Users/riccardofoti/Repos/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/refint/Starter.dll
+/Users/riccardofoti/Repos/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.pdb
+/Users/riccardofoti/Repos/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/Starter.genruntimeconfig.cache
+/Users/riccardofoti/Repos/Guided-project-foreach-if-array-CSharp-main/GuidedProject/Starter/obj/Debug/net8.0/ref/Starter.dll
