@@ -1,24 +1,13 @@
-﻿/*
-    The following lines of code reverse
-    a string and count the number of times
-    the letter "o" appears.
-*/
+﻿string permission = "Admin";
+int level = 55;
 
-string initialMessage = "The quick brown fox jumps over the lazy dog.";
-
-char[] charMessage = initialMessage.ToCharArray();
-Array.Reverse(charMessage);
-int letterCount = 0;
-
-foreach (char i in charMessage)
-{
-    if (i == 'o')
-    {
-        letterCount++;
-    }
-}
-
-string reversedMessage = new String(charMessage);
-
-Console.WriteLine(reversedMessage);
-Console.WriteLine($"'o' appears {letterCount} times.");
+if (permission.Contains("Admin") && level > 55)
+    Console.WriteLine("Welcome, Super Admin User.");
+else if (permission.Contains("Admin") && level <= 55)
+    Console.WriteLine("Welcome, Admin user.");
+else if (permission.Contains("Manager") && level >= 20)
+    Console.WriteLine("Contact an Admin for acccess.");
+else if (permission.Contains("Manager") && level < 20)
+    Console.WriteLine("You do not have sufficient privileges.");
+else
+    Console.WriteLine("You do not have sufficient privileges.");

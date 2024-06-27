@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/riccardofoti/Repos/CsharpProjects/TestProject/TestProject.csproj",
+      "projectUniqueName": "/Users/riccardofoti/Repos/foundational-C-Sharp-course/TestProject/TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "/Users/riccardofoti/Repos/CsharpProjects/TestProject/TestProject.csproj",
+      "projectPath": "/Users/riccardofoti/Repos/foundational-C-Sharp-course/TestProject/TestProject.csproj",
       "packagesPath": "/Users/riccardofoti/.nuget/packages/",
-      "outputPath": "/Users/riccardofoti/Repos/CsharpProjects/TestProject/obj/",
+      "outputPath": "/Users/riccardofoti/Repos/foundational-C-Sharp-course/TestProject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/riccardofoti/.nuget/NuGet/NuGet.Config"
