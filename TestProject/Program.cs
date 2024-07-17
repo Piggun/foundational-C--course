@@ -26,26 +26,54 @@
 // Console.WriteLine($"Your input value ({numericValue}) has been accepted!");
 
 
-// Code project 2
+// // Code project 2
 
-Console.WriteLine("Enter your role name (Administrator, Manager, or User)");
-bool validEntry = false;
-string? readResult;
+// Console.WriteLine("Enter your role name (Administrator, Manager, or User)");
+// bool validEntry = false;
+// string? readResult;
 
-do
+// do
+// {
+//     readResult = Console.ReadLine();
+//     if (readResult is not null)
+//     {
+//         string transformedResult = readResult.Trim().ToLower();
+//         if ((new[] { "administrator", "manager", "user" }).Contains(transformedResult))
+//         {
+//             Console.WriteLine($"Your input value ({readResult.Trim()}) has been accepted.");
+//             validEntry = true;
+//         }
+//         else
+//         {
+//             Console.WriteLine($"The role name that you entered, \"{readResult}\" is not valid. Enter your role name (Administrator, Manager, or User)");
+//         }
+//     }
+// } while (validEntry == false);
+
+
+// Code project 3
+
+string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+
+int periodLocation;
+string myString = "";
+
+for (int i = 0; i < myStrings.Length; i++)
 {
-    readResult = Console.ReadLine();
-    if (readResult is not null)
+    myString = myStrings[i];
+    periodLocation = myString.IndexOf(".");
+
+    string sentence;
+
+    while (periodLocation != -1)
     {
-        string transformedResult = readResult.Trim().ToLower();
-        if ((new[] { "administrator", "manager", "user" }).Contains(transformedResult))
-        {
-            Console.WriteLine($"Your input value ({readResult.Trim()}) has been accepted.");
-            validEntry = true;
-        }
-        else
-        {
-            Console.WriteLine($"The role name that you entered, \"{readResult}\" is not valid. Enter your role name (Administrator, Manager, or User)");
-        }
+        sentence = myString.Remove(periodLocation);
+        myString = myString.Substring(periodLocation + 1);
+        myString = myString.TrimStart();
+        periodLocation = myString.IndexOf(".");
+        Console.WriteLine(sentence);
     }
-} while (validEntry == false);
+
+    sentence = myString.Trim();
+    Console.WriteLine(sentence);
+}
