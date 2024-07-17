@@ -1,7 +1,22 @@
-﻿for (int i = 1; i <= 100; i++)
+﻿Random random = new Random();
+int heroHealth = 10;
+int monsterHealth = 10;
+string attacker = "Hero";
+do
 {
-    if (i % 3 == 0 && i % 5 == 0) Console.WriteLine($"{i} - FizzBuzz");
-    else if (i % 3 == 0) Console.WriteLine($"{i} - Fizz");
-    else if (i % 5 == 0) Console.WriteLine($"{i} - Buzz");
-    else Console.WriteLine(i);
-}
+    int attackDamage = random.Next(1, 11);
+    if (attacker == "Hero")
+    {
+        monsterHealth -= attackDamage;
+        Console.WriteLine($"Monster was damaged and lost {attackDamage} health and now has {monsterHealth} health.");
+        attacker = "Monster";
+    }
+    else if (attacker == "Monster")
+    {
+        heroHealth -= attackDamage;
+        Console.WriteLine($"Hero was damaged and lost {attackDamage} health and now has {heroHealth} health.");
+        attacker = "Hero";
+    }
+} while (heroHealth > 0 && monsterHealth > 0);
+
+Console.WriteLine(heroHealth > monsterHealth ? "Hero wins!" : "Monster wins!");
