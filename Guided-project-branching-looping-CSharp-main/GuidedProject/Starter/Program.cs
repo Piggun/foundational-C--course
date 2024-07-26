@@ -266,7 +266,63 @@ do
 
         case "3":
             // Ensure animal ages and physical descriptions are complete
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+            for (int i = 0; i < maxPets; i++)
+            {
+                if (ourAnimals[i, 0] != "ID #: ")
+                {
+                    for (int j = 0; j < 6; j++)
+                    {
+                        do
+                        {
+                            int petAge;
+                            if (ourAnimals[i, j].Split(": ")[0] == "Age" && ourAnimals[i, j].Split(": ")[1] == "?")
+                            {
+                                Console.WriteLine($"Enter an age for {ourAnimals[i, 0]}");
+                                readResult = Console.ReadLine();
+
+                                if (int.TryParse(readResult, out petAge))
+                                {
+                                    ourAnimals[i, 2] = $"Age: {readResult}";
+                                }
+                            }
+
+                        } while (ourAnimals[i, j].Split(": ")[1] == "?");
+
+
+                        // Check if data is missing on any animal property
+                        // while (ourAnimals[i, j].Split(": ")[1].Length == 0)
+                        // {
+                        //     // switch (ourAnimals[i, j])
+                        //     // {
+                        //     //     case "Age: ":
+                        //     //         Console.WriteLine("Aaaaaage");
+                        //     //         break;
+
+
+                        //     //     default:
+                        //     //         Console.WriteLine("DEFAULT");
+                        //     //         break;
+                        //     // }
+
+                        //     Console.WriteLine(ourAnimals[i, j]);
+
+                        //     bool validEntry = false;
+                        //     int petAge;
+                        //     Console.WriteLine($"Enter an age for {ourAnimals[i, 0]}");
+                        //     readResult = Console.ReadLine();
+
+                        //     // validEntry = int.TryParse(readResult, out petAge);
+                        //     if (int.TryParse(readResult, out petAge))
+                        //     {
+                        //         Console.WriteLine("ACCepted");
+                        //         ourAnimals[i, 2] += readResult;
+                        //     }
+                        // }
+
+
+                    }
+                }
+            }
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
