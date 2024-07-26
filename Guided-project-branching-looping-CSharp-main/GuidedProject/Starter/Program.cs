@@ -275,7 +275,7 @@ do
                         do
                         {
                             int petAge;
-                            if (ourAnimals[i, j].Split(": ")[0] == "Age" && ourAnimals[i, j].Split(": ")[1] == "?")
+                            if (ourAnimals[i, 2].Split(": ")[1] == "?")
                             {
                                 Console.WriteLine($"Enter an age for {ourAnimals[i, 0]}");
                                 readResult = Console.ReadLine();
@@ -286,43 +286,27 @@ do
                                 }
                             }
 
-                        } while (ourAnimals[i, j].Split(": ")[1] == "?");
+                        } while (ourAnimals[i, 2].Split(": ")[1] == "?");
 
+                        do
+                        {
+                            if (ourAnimals[i, 4].Split(": ")[1] == "")
+                            {
+                                Console.WriteLine($"Enter a physical description for {ourAnimals[i, 0]} (size, color, gender, weight, housebroken)");
+                                readResult = Console.ReadLine();
 
-                        // Check if data is missing on any animal property
-                        // while (ourAnimals[i, j].Split(": ")[1].Length == 0)
-                        // {
-                        //     // switch (ourAnimals[i, j])
-                        //     // {
-                        //     //     case "Age: ":
-                        //     //         Console.WriteLine("Aaaaaage");
-                        //     //         break;
+                                if (readResult != null && readResult.Any(Char.IsLetter))
+                                {
+                                    ourAnimals[i, 4] = $"Physical description: {readResult}";
+                                    Console.WriteLine();
+                                }
+                            }
 
-
-                        //     //     default:
-                        //     //         Console.WriteLine("DEFAULT");
-                        //     //         break;
-                        //     // }
-
-                        //     Console.WriteLine(ourAnimals[i, j]);
-
-                        //     bool validEntry = false;
-                        //     int petAge;
-                        //     Console.WriteLine($"Enter an age for {ourAnimals[i, 0]}");
-                        //     readResult = Console.ReadLine();
-
-                        //     // validEntry = int.TryParse(readResult, out petAge);
-                        //     if (int.TryParse(readResult, out petAge))
-                        //     {
-                        //         Console.WriteLine("ACCepted");
-                        //         ourAnimals[i, 2] += readResult;
-                        //     }
-                        // }
-
-
+                        } while (ourAnimals[i, 4].Split(": ")[1] == "");
                     }
                 }
             }
+            Console.WriteLine("Age and physical description fields are complete for all of our friends.");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
