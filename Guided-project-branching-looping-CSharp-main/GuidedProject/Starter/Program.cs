@@ -313,7 +313,45 @@ do
 
         case "4":
             //  Ensure animal nicknames and personality descriptions are complete
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+            for (int i = 0; i < maxPets; i++)
+            {
+                if (ourAnimals[i, 0] != "ID #: ")
+                {
+                    do
+                    {
+                        if (ourAnimals[i, 3].Split(": ")[1] == "")
+                        {
+                            Console.WriteLine($"Enter a nickname for {ourAnimals[i, 0]}");
+                            readResult = Console.ReadLine();
+
+                            if (readResult != null && readResult.Any(Char.IsLetter))
+                            {
+                                ourAnimals[i, 3] = $"Nickname: {readResult}";
+                                Console.WriteLine();
+                            }
+                        }
+
+                    } while (ourAnimals[i, 3].Split(": ")[1] == "");
+
+                    do
+                    {
+                        if (ourAnimals[i, 5].Split(": ")[1] == "")
+                        {
+                            Console.WriteLine($"Enter a personality description for {ourAnimals[i, 0]} (likes or dislikes, tricks, energy level)");
+                            readResult = Console.ReadLine();
+
+                            if (readResult != null && readResult.Any(Char.IsLetter))
+                            {
+                                ourAnimals[i, 5] = $"Personality: {readResult}";
+                                Console.WriteLine();
+                            }
+                        }
+
+                    } while (ourAnimals[i, 5].Split(": ")[1] == "");
+                }
+
+            }
+            Console.WriteLine("Nickname and personality description fields are complete for all of our friends.");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
