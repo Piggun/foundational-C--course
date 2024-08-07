@@ -1,0 +1,15 @@
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/bin/Debug/net7.0/Final
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/bin/Debug/net7.0/Final.deps.json
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/bin/Debug/net7.0/Final.runtimeconfig.json
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/bin/Debug/net7.0/Final.dll
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/bin/Debug/net7.0/Final.pdb
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/obj/Debug/net7.0/Final.GeneratedMSBuildEditorConfig.editorconfig
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/obj/Debug/net7.0/Final.AssemblyInfoInputs.cache
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/obj/Debug/net7.0/Final.AssemblyInfo.cs
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/obj/Debug/net7.0/Final.csproj.CoreCompileInputs.cache
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/obj/Debug/net7.0/Final.sourcelink.json
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/obj/Debug/net7.0/Final.dll
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/obj/Debug/net7.0/refint/Final.dll
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/obj/Debug/net7.0/Final.pdb
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/obj/Debug/net7.0/Final.genruntimeconfig.cache
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Final/obj/Debug/net7.0/ref/Final.dll
