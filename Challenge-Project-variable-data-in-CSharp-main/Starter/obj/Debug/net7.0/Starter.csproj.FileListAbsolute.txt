@@ -1,0 +1,15 @@
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/bin/Debug/net7.0/Starter
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/bin/Debug/net7.0/Starter.deps.json
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/bin/Debug/net7.0/Starter.runtimeconfig.json
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/bin/Debug/net7.0/Starter.dll
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/bin/Debug/net7.0/Starter.pdb
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.AssemblyInfoInputs.cache
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.AssemblyInfo.cs
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.csproj.CoreCompileInputs.cache
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.sourcelink.json
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.dll
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/refint/Starter.dll
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.pdb
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/Starter.genruntimeconfig.cache
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-Project-variable-data-in-CSharp-main/Starter/obj/Debug/net7.0/ref/Starter.dll
