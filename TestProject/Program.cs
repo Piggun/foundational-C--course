@@ -937,55 +937,123 @@ else ipAddress is invalid
 
 //     -----------------  Code challenge: add methods to make the game playable -----------------
 
-Random random = new Random();
+// Random random = new Random();
 
-Console.WriteLine("Would you like to play? (Y/N)");
-if (ShouldPlay())
+// Console.WriteLine("Would you like to play? (Y/N)");
+// if (ShouldPlay())
+// {
+//     // Console.WriteLine("playing!");
+//     PlayGame();
+// }
+
+// void PlayGame()
+// {
+//     var play = true;
+
+//     while (play)
+//     {
+//         var target = random.Next(1, 6);
+//         var roll = random.Next(1, 7);
+
+//         Console.WriteLine($"Roll a number greater than {target} to win!");
+//         Console.WriteLine($"You rolled a {roll}");
+//         Console.WriteLine(WinOrLose(target, roll));
+//         Console.WriteLine("\nPlay again? (Y/N)");
+
+//         play = ShouldPlay();
+//     }
+// }
+
+// bool ShouldPlay()
+// {
+//     string? input = Console.ReadLine();
+//     if (input != null)
+//     {
+//         while ((input.ToLower() != "y" || input.ToLower() != "n"))
+//         {
+//             if (input.ToLower() == "y")
+//                 return true;
+//             if (input.ToLower() == "n")
+//                 return false;
+//             else
+//             {
+//                 Console.WriteLine("Please enter either Y or N:");
+//                 input = Console.ReadLine();
+//             }
+//         }
+//     }
+//     return false;
+// }
+
+// string WinOrLose(int target, int roll)
+// {
+//     return roll > target ? "You win!" : "You Lose!";
+// }
+
+
+//                 -----------------  Guided project - Plan a Petting Zoo Visit -----------------
+
+using System;
+
+string[] pettingZoo =
 {
-    // Console.WriteLine("playing!");
-    PlayGame();
+    "alpacas", "capybaras", "chickens", "ducks", "emus", "geese",
+    "goats", "iguanas", "kangaroos", "lemurs", "llamas", "macaws",
+    "ostriches", "pigs", "ponies", "rabbits", "sheep", "tortoises",
+};
+
+PlanSchoolVisit("School A");
+PlanSchoolVisit("School B", 3);
+PlanSchoolVisit("School C", 2);
+
+void PlanSchoolVisit(string schoolName, int groups = 6)
+{
+    RandomizeAnimals();
+    string[,] group = AssignGroup(groups);
+    Console.WriteLine(schoolName);
+    PrintGroup(group);
 }
 
-void PlayGame()
+void RandomizeAnimals()
 {
-    var play = true;
+    Random random = new Random();
 
-    while (play)
+    for (int i = 0; i < pettingZoo.Length; i++)
     {
-        var target = random.Next(1, 6);
-        var roll = random.Next(1, 7);
+        int r = random.Next(i, pettingZoo.Length);
 
-        Console.WriteLine($"Roll a number greater than {target} to win!");
-        Console.WriteLine($"You rolled a {roll}");
-        Console.WriteLine(WinOrLose(target, roll));
-        Console.WriteLine("\nPlay again? (Y/N)");
-
-        play = ShouldPlay();
+        string temp = pettingZoo[i];
+        pettingZoo[i] = pettingZoo[r];
+        pettingZoo[r] = temp;
     }
 }
 
-bool ShouldPlay()
+string[,] AssignGroup(int groups = 6)
 {
-    string? input = Console.ReadLine();
-    if (input != null)
+    string[,] result = new string[groups, pettingZoo.Length / groups];
+
+    int start = 0;
+
+    for (int i = 0; i < groups; i++)
     {
-        while ((input.ToLower() != "y" || input.ToLower() != "n"))
+        for (int j = 0; j < result.GetLength(1); j++)
         {
-            if (input.ToLower() == "y")
-                return true;
-            if (input.ToLower() == "n")
-                return false;
-            else
-            {
-                Console.WriteLine("Please enter either Y or N:");
-                input = Console.ReadLine();
-            }
+            result[i, j] = pettingZoo[start++];
         }
     }
-    return false;
+
+    return result;
 }
 
-string WinOrLose(int target, int roll)
+void PrintGroup(string[,] group)
 {
-    return roll > target ? "You win!" : "You Lose!";
+    for (int i = 0; i < group.GetLength(0); i++)
+    {
+        Console.Write($"Group {i + 1}: ");
+        for (int j = 0; j < group.GetLength(1); j++)
+        {
+            Console.Write($"{group[i, j]}  ");
+        }
+        Console.WriteLine();
+    }
 }
