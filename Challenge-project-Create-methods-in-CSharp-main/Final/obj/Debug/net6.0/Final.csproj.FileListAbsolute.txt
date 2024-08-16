@@ -1,0 +1,14 @@
+/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/bin/Debug/net6.0/Final
+/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/bin/Debug/net6.0/Final.deps.json
+/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/bin/Debug/net6.0/Final.runtimeconfig.json
+/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/bin/Debug/net6.0/Final.dll
+/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/bin/Debug/net6.0/Final.pdb
+/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/obj/Debug/net6.0/Final.GeneratedMSBuildEditorConfig.editorconfig
+/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/obj/Debug/net6.0/Final.AssemblyInfoInputs.cache
+/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/obj/Debug/net6.0/Final.AssemblyInfo.cs
+/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/obj/Debug/net6.0/Final.csproj.CoreCompileInputs.cache
+/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/obj/Debug/net6.0/Final.dll
+/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/obj/Debug/net6.0/refint/Final.dll
+/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/obj/Debug/net6.0/Final.pdb
+/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/obj/Debug/net6.0/Final.genruntimeconfig.cache
+/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/obj/Debug/net6.0/ref/Final.dll
