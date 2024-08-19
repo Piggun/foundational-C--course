@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/Final.csproj",
+      "projectUniqueName": "/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-project-Create-methods-in-CSharp-main/Final/Final.csproj",
       "projectName": "Final",
-      "projectPath": "/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/Final.csproj",
+      "projectPath": "/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-project-Create-methods-in-CSharp-main/Final/Final.csproj",
       "packagesPath": "/Users/riccardofoti/.nuget/packages/",
-      "outputPath": "/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/obj/",
+      "outputPath": "/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-project-Create-methods-in-CSharp-main/Final/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/riccardofoti/.nuget/NuGet/NuGet.Config"

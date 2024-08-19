@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u7yUO8MSy/Q=",
+  "dgSpecHash": "faz3ThasG10=",
   "success": true,
-  "projectFilePath": "/Users/riccardofoti/Downloads/Challenge-project-Create-methods-in-CSharp-main/Final/Final.csproj",
+  "projectFilePath": "/Users/riccardofoti/Repos/foundational-C-Sharp-course/Challenge-project-Create-methods-in-CSharp-main/Final/Final.csproj",
   "expectedPackageFiles": [
     "/Users/riccardofoti/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
     "/Users/riccardofoti/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
