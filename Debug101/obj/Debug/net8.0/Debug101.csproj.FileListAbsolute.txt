@@ -1,0 +1,15 @@
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/bin/Debug/net8.0/Debug101
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/bin/Debug/net8.0/Debug101.deps.json
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/bin/Debug/net8.0/Debug101.runtimeconfig.json
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/bin/Debug/net8.0/Debug101.dll
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/bin/Debug/net8.0/Debug101.pdb
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/obj/Debug/net8.0/Debug101.GeneratedMSBuildEditorConfig.editorconfig
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/obj/Debug/net8.0/Debug101.AssemblyInfoInputs.cache
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/obj/Debug/net8.0/Debug101.AssemblyInfo.cs
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/obj/Debug/net8.0/Debug101.csproj.CoreCompileInputs.cache
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/obj/Debug/net8.0/Debug101.sourcelink.json
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/obj/Debug/net8.0/Debug101.dll
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/obj/Debug/net8.0/refint/Debug101.dll
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/obj/Debug/net8.0/Debug101.pdb
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/obj/Debug/net8.0/Debug101.genruntimeconfig.cache
+/Users/riccardofoti/Repos/foundational-C-Sharp-course/Debug101/obj/Debug/net8.0/ref/Debug101.dll
